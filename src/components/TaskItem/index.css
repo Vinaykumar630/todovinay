@@ -1,0 +1,37 @@
+.list-container{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.items{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.del-btn{
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.span{
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "roboto";
+}
+.icon{
+    color: aliceblue;
+    font-size: 22px;
+}
+

@@ -1,0 +1,54 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.ul-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.heading{
+    font-size: 26px;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 40px;
+    color: black;
+    font-weight: 500;
+    font-family: "roboto";
+}
+
+.input-form-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.form{
+    width: 160px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: black;
+    font-family: "roboto";
+    margin-bottom: 10px;
+}
+
+.add-btn{
+    background-color: blue;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    border-radius: 2px;
+    height: 30px;
+    padding: 10px;
+    text-align: left;
+    width: 80px;
+}
