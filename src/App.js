@@ -7,7 +7,7 @@ import './App.css';
 const App = () => (
   <BrowserRouter>
      <Routes>
-        <Route exact path="" element={<Register/>} />
+        <Route path="" element={<Register/>} />
         <Route exact path="/login" element={<Login/>} />
         <Route exact path="/todo" element={<Todo/>} />
      </Routes>
